@@ -1,13 +1,25 @@
 {
-  "name": "react-native-config",
-  "version": "0.11.7",
+  "name": "@x-react-native/env-config",
+  "version": "0.0.1",
   "description": "Expose config variables to React Native apps",
-  "keywords": ["env", "config", "config-var", "react-native", "android", "ios", "12factor"],
-  "homepage": "https://github.com/luggit/react-native-config",
-  "contributors": [],
+  "keywords": [
+    "env",
+    "config",
+    "config-var",
+    "react-native",
+    "android",
+    "ios",
+    "12factor"
+  ],
+  "homepage": "https://github.com/x-react-native/env-config",
+  "contributors": [
+    {
+      "name": "Drew Miller"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/luggit/react-native-config"
+    "url": "https://github.com/x-react-native/env-config"
   },
   "private": false,
   "author": "Pedro Belo",
@@ -16,8 +28,10 @@
     "ios/",
     "index.js",
     "index.d.ts",
-    "react-native-config.podspec"
+    "x-react-native-env-config.podspec"
   ],
   "types": "./index.d.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md"
 }

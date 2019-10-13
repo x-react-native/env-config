@@ -50,7 +50,7 @@ You'll also need to manually apply a plugin to your app, from `android/app/build
 
 ```
 // 2nd line, add a new apply:
-apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+apply from: file("../../node_modules/@x-react-native/env-config/android/dotenv.gradle")
 ```
 
 #### Advanced Android Setup
